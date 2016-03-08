@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContainerAlias" xml:space="preserve">
+    <value>membership</value>
+  </data>
+  <data name="FilenameMetaDataNamespace" xml:space="preserve">
+    <value>http://www.sleepycat.com/2002/dbxml</value>
+  </data>
+  <data name="GetUsersByNameCount" xml:space="preserve">
+    <value>GetUsersByNameCount</value>
+  </data>
+  <data name="PasswordAnswer" xml:space="preserve">
+    <value>PasswordAnswer</value>
+  </data>
+  <data name="PasswordQuestion" xml:space="preserve">
+    <value>PasswordQuestion</value>
+  </data>
+  <data name="PathEmail" xml:space="preserve">
+    <value>/FigaroMembershipUser/Email</value>
+  </data>
+  <data name="PathIsLockedOut" xml:space="preserve">
+    <value>/FigaroMembershipUser/PathIsLockedOut</value>
+  </data>
+  <data name="PathLastActivity" xml:space="preserve">
+    <value>/FigaroMembershipUser/LastActivityDate</value>
+  </data>
+  <data name="PathPassword" xml:space="preserve">
+    <value>/FigaroMembershipUser/Password</value>
+  </data>
+  <data name="PathUserKey" xml:space="preserve">
+    <value>/FigaroMembershipUser/ProviderUserKey</value>
+  </data>
+  <data name="PathUserName" xml:space="preserve">
+    <value>/FigaroMembershipUser/UserName</value>
+  </data>
+  <data name="QueryChangePasswordAnswer" xml:space="preserve">
+    <value>replace value of node  doc($doc)/FigaroMembershipUser/PasswordAnswer with $answer</value>
+  </data>
+  <data name="QueryChangePasswordQuestion" xml:space="preserve">
+    <value>replace value of node doc($doc)/FigaroMembershipUser/PasswordQuestion with $question</value>
+  </data>
+  <data name="QueryChangePasswordQuestionAndAnswer" xml:space="preserve">
+    <value>replace value of node doc($doc)/FigaroMembershipUser/PasswordQuestion with $question,
+replace value of node  doc($doc)/FigaroMembershipUser/PasswordAnswer with $answer</value>
+  </data>
+  <data name="QueryCountUsersByEmail" xml:space="preserve">
+    <value>for $x at $count in collection('membership') where $x/FigaroMembershipUser/Email = $email return $x</value>
+  </data>
+  <data name="QueryCountUsersByUserName" xml:space="preserve">
+    <value>for $x at $count in collection('membership') where $x/FigaroMembershipUser/UserName = $user return $x</value>
+  </data>
+  <data name="QueryGet" xml:space="preserve">
+    <value>for $x in collection('membership') where {0} return {1}</value>
+  </data>
+  <data name="QueryGetAllUsersPage" xml:space="preserve">
+    <value>for $x at $count in collection('membership') where $count = ($i to $j) return $x</value>
+  </data>
+  <data name="QueryGetFileName" xml:space="preserve">
+    <value>for $x in collection('membership') where {0} return $x/dbxml:metadata('dbxml:name')</value>
+  </data>
+  <data name="QueryGetPassword" xml:space="preserve">
+    <value>xs:string(doc($doc)/FigaroMembershipUser/Password)</value>
+    <comment>version 2.5</comment>
+  </data>
+  <data name="QueryGetPassword1" xml:space="preserve">
+    <value>for $x in collection('membership') where {0} return $x/FigaroMembersipUser/Password</value>
+    <comment>version 2.4</comment>
+  </data>
+  <data name="QueryGetPasswordAnswer" xml:space="preserve">
+    <value>xs:string(doc($doc)/FigaroMembershipUser/PasswordAnswer)</value>
+  </data>
+  <data name="QueryGetUser" xml:space="preserve">
+    <value>for $x in collection('membership') where {0} return $x</value>
+  </data>
+  <data name="QueryGetUserNameByEmail" xml:space="preserve">
+    <value>for $x in collection('membership') where $x/FigaroMembershipUser[Email = $email] return dbxml:metadata("dbxml:name",$x)</value>
+  </data>
+  <data name="QueryGetUsersByEmailCount" xml:space="preserve">
+    <value>for $x in collection('membership') where $x/FigaroMembershipUser[Email = $email] return count($x)</value>
+  </data>
+  <data name="QueryGetUsersByEmailCount1" xml:space="preserve">
+    <value>count(collection('membership')/FigaroMembershipUser[Email = $email])</value>
+  </data>
+  <data name="QueryGetUsersByEmailPage" xml:space="preserve">
+    <value>for $x at $count in collection('membership') where $x/FigaroMembershipUser[Email = $email] and $count = ($i to $j) return $x</value>
+  </data>
+  <data name="QueryGetUsersByNameCount" xml:space="preserve">
+    <value>count(collection('membership')/FigaroMembershipUser[UserName = $user])</value>
+  </data>
+  <data name="QueryGetUsersByNamePage" xml:space="preserve">
+    <value>for $x at $count in collection('membership') where $x/FigaroMembershipUser[UserName = $user] and $count = ($i to $j) return $x</value>
+  </data>
+  <data name="QueryGetUsersPage" xml:space="preserve">
+    <value>for $x at $count in collection('membership') where $count = ({0}) return $x</value>
+  </data>
+  <data name="QueryReplace" xml:space="preserve">
+    <value>replace value of node doc($doc){1} with \"{2}\"</value>
+  </data>
+  <data name="QueryReplacePassword" xml:space="preserve">
+    <value>replace value of node doc($doc)/FigaroMembershipUser/Password with $pass</value>
+  </data>
+  <data name="QueryReplacePasswordAnswer" xml:space="preserve">
+    <value>replace value of node doc($doc)/FigaroMembershipUser/PasswordAnswer with \"{1}\"</value>
+  </data>
+  <data name="QueryReplacePasswordQuestion" xml:space="preserve">
+    <value>replace value of node doc($doc)/FigaroMembershipUser/PasswordQuestion with \"{1}\"</value>
+  </data>
+  <data name="QueryReplaceValue" xml:space="preserve">
+    <value>replace value of node doc($doc){0} with $val</value>
+  </data>
+  <data name="QuerySetNewPassword" xml:space="preserve">
+    <value>replace value of node doc($doc)/FigaroMembershipUser/Password with $val</value>
+  </data>
+  <data name="QueryUnlockUser" xml:space="preserve">
+    <value>replace value of node doc($doc)/FigaroMembershipUser/PathIsLockedOut with $locked</value>
+  </data>
+  <data name="QueryUpdateUserOnline" xml:space="preserve">
+    <value>replace value of node doc($doc)/FigaroMembershipUser/LastActivityDate with $date</value>
+  </data>
+  <data name="QueryValidateUser" xml:space="preserve">
+    <value>for $x in collection('membership') where $x/FigaroMembershipUser[UserName = $user] and $x/FigaroMembershipUser[Password = $pwd] return $x</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>FigaroMembershipProvider</value>
+  </data>
+  <data name="VariableKey" xml:space="preserve">
+    <value>$key</value>
+  </data>
+  <data name="VariablePwd" xml:space="preserve">
+    <value>$pwd</value>
+  </data>
+  <data name="VariableUser" xml:space="preserve">
+    <value>$user</value>
+  </data>
+  <data name="VariableX" xml:space="preserve">
+    <value>$x</value>
+  </data>
+  <data name="VariableY" xml:space="preserve">
+    <value>$y</value>
+  </data>
+  <data name="WhereUserName" xml:space="preserve">
+    <value>$x/FigaroMembershipUser[UserName = $user]</value>
+  </data>
+  <data name="xmlns" xml:space="preserve">
+    <value>http://schemas.bdbxml.net/web/membership/2009/05/</value>
+  </data>
+  <data name="FigaroMembershipProvider_InvalidUsername" xml:space="preserve">
+    <value>Invalid username: '</value>
+  </data>
+  <data name="FigaroMembership_UserName_NullOrEmpty" xml:space="preserve">
+    <value>User name cannot be a null or empty string.</value>
+  </data>
+</root>

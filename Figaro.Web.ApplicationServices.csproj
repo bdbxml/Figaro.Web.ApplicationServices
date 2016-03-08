@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">DebugTDS</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F4349812-BDD3-4922-8104-E40AFF56317E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Figaro.Web.ApplicationServices</RootNamespace>
+    <AssemblyName>Figaro.Web.ApplicationServices</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>figaro.web.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseDS|x64' ">
+    <OutputPath>bin\x64\ReleaseDS\</OutputPath>
+    <DefineConstants>TRACE;DS</DefineConstants>
+    <DocumentationFile>bin\Figaro.Web.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>287375360</BaseAddress>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseCDS|x64' ">
+    <OutputPath>bin\x64\ReleaseCDS\</OutputPath>
+    <DefineConstants>TRACE;CDS</DefineConstants>
+    <DocumentationFile>bin\Figaro.Web.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>287375360</BaseAddress>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseTDS|x64' ">
+    <OutputPath>bin\x64\ReleaseTDS\</OutputPath>
+    <DefineConstants>TRACE;TDS</DefineConstants>
+    <DocumentationFile>bin\Figaro.Web.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>287375360</BaseAddress>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugDS|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\DebugDS\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;DS</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>287375360</BaseAddress>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Figaro.Web.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugCDS|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\DebugCDS\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;CDS</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>287375360</BaseAddress>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Figaro.Web.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugTDS|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\DebugTDS\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;TDS</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>287375360</BaseAddress>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Figaro.Web.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseDS|x86' ">
+    <OutputPath>bin\x86\ReleaseDS\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;DS</DefineConstants>
+    <DocumentationFile>bin\Figaro.Web.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>287375360</BaseAddress>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseCDS|x86' ">
+    <OutputPath>bin\x86\ReleaseCDS\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CDS</DefineConstants>
+    <DocumentationFile>bin\Figaro.Web.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>287375360</BaseAddress>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseTDS|x86' ">
+    <OutputPath>bin\x86\ReleaseTDS\</OutputPath>
+    <DefineConstants>TRACE;TDS</DefineConstants>
+    <DocumentationFile>bin\Figaro.Web.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>287375360</BaseAddress>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugDS|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\DebugDS\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;DS</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>287375360</BaseAddress>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Figaro.Web.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugCDS|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\DebugCDS\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;CDS</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>287375360</BaseAddress>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Figaro.Web.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugTDS|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\DebugTDS\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;TDS</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>287375360</BaseAddress>
+    <DocumentationFile>bin\Figaro.Web.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(Platform)' == 'x64'">
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.NET\Framework64\v2.0.50727\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.NET\Framework64\v2.0.50727\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Windows\Microsoft.NET\Framework64\v2.0.50727\System.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Platform)' != 'x64'">
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\Encryptor.cs" />
+    <Compile Include="Data\FigaroMembershipData.cs" />
+    <Compile Include="Data\FigaroRoleData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\QueryUnit.cs" />
+    <Compile Include="Data\FigaroBase.cs" />
+    <Compile Include="Data\FigaroMemberQuery.cs" />
+    <Compile Include="Data\FigaroProfileData.cs" />
+    <Compile Include="Data\FigaroProfileMessage.cs" />
+    <Compile Include="Data\FigaroProfileReader.cs" />
+    <Compile Include="Data\RandomStringGenerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\WebEventData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FigaroSettingsProperty.cs" />
+    <Compile Include="FigaroWebEventProvider.cs" />
+    <Compile Include="MemberResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MemberResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PathUtility.cs" />
+    <Compile Include="ProfileResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Annotations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProviderResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProviderResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RoleResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RoleResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities.cs" />
+    <Compile Include="FigaroMembershipProvider.cs" />
+    <Compile Include="FigaroMembershipUser.cs" />
+    <Compile Include="FigaroProfileProvider.cs" />
+    <Compile Include="FigaroRoleProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProviderUtility.cs" />
+    <Compile Include="WebEventResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WebEventResource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MemberResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MemberResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProfileResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProviderResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProviderResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoleResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RoleResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebEventResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WebEventResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Figaro, Version=6.0.18.0, Culture=neutral, PublicKeyToken=f6f39be683afad89, processorArchitecture=x86">
+      <HintPath>packages\FigaroDS.x86.6.0.18.2\lib\Net40\Figaro.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Figaro.Configuration, Version=2.5.13.0, Culture=neutral, PublicKeyToken=a69423a247fee477, processorArchitecture=x86">
+      <HintPath>packages\FigaroDS.x86.6.0.18.2\lib\Net40\Figaro.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\FigaroConfigSchema.xsd" />
+    <None Include="figaro.web.snk" />
+    <None Include="Help\Figaro.chm" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
