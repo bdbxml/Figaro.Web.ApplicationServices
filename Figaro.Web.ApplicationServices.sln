@@ -1,18 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figaro.Web.ApplicationServices", "Figaro.Web.ApplicationServices.csproj", "{F4349812-BDD3-4922-8104-E40AFF56317E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		DebugDS|Any CPU = DebugDS|Any CPU
 		DebugDS|x86 = DebugDS|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+		ReleaseDS|Any CPU = ReleaseDS|Any CPU
 		ReleaseDS|x86 = ReleaseDS|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4349812-BDD3-4922-8104-E40AFF56317E}.Debug|Any CPU.ActiveCfg = DebugTDS|x86
+		{F4349812-BDD3-4922-8104-E40AFF56317E}.Debug|Any CPU.Build.0 = DebugTDS|x86
+		{F4349812-BDD3-4922-8104-E40AFF56317E}.Debug|x86.ActiveCfg = DebugTDS|x86
+		{F4349812-BDD3-4922-8104-E40AFF56317E}.Debug|x86.Build.0 = DebugTDS|x86
+		{F4349812-BDD3-4922-8104-E40AFF56317E}.DebugDS|Any CPU.ActiveCfg = DebugDS|x86
 		{F4349812-BDD3-4922-8104-E40AFF56317E}.DebugDS|x86.ActiveCfg = DebugDS|x86
 		{F4349812-BDD3-4922-8104-E40AFF56317E}.DebugDS|x86.Build.0 = DebugDS|x86
+		{F4349812-BDD3-4922-8104-E40AFF56317E}.Release|Any CPU.ActiveCfg = DebugTDS|x86
+		{F4349812-BDD3-4922-8104-E40AFF56317E}.Release|Any CPU.Build.0 = DebugTDS|x86
+		{F4349812-BDD3-4922-8104-E40AFF56317E}.Release|x86.ActiveCfg = ReleaseTDS|x86
+		{F4349812-BDD3-4922-8104-E40AFF56317E}.Release|x86.Build.0 = ReleaseTDS|x86
+		{F4349812-BDD3-4922-8104-E40AFF56317E}.ReleaseDS|Any CPU.ActiveCfg = ReleaseDS|x86
 		{F4349812-BDD3-4922-8104-E40AFF56317E}.ReleaseDS|x86.ActiveCfg = ReleaseDS|x86
 		{F4349812-BDD3-4922-8104-E40AFF56317E}.ReleaseDS|x86.Build.0 = ReleaseDS|x86
 	EndGlobalSection
